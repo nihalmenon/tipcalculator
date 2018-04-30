@@ -45,4 +45,19 @@ function main() {
 	peopleInput.addEventListener('keypress', calculate1);
 }
 
+function emptyBill() {
+	document.getElementById("bill").value = "";
+	console.log("empty1");
+}
+
+function emptyPercentage() {
+	document.getElementById("percentage").value = "";
+	console.log("empty2");
+}
+
+function emptyPeople() {
+	document.getElementById("people").value = "";
+	console.log("empty3");
+}
+
 main();

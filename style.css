@@ -1,0 +1,48 @@
+body, html {
+	background: #333 url('img/restaurant.jpg') no-repeat;
+	background-size: cover;
+	height: 100%;
+	color: #532827;
+	text-align: center;
+	font-size: 25px;
+}
+
+.container {
+	width: 35vw;
+	margin: 38px auto 0;
+	padding: 50px;
+	box-sizing: border-box;
+	background: url('img/paper-pattern.jpg') top left repeat;
+	box-shadow: 0px 10px 15px -8px #000;
+	border-radius: 7px;
+}
+
+input {
+	padding: 5px;
+	margin: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 3px;
+	border: .5px solid grey;
+	font-size: 15px;
+}
+
+h1 {
+	margin-top: 8px;
+}
+
+p {
+	margin: 5px;
+}
+
+#result {
+	font: 50px;
+	margin: 3px;
+	margin: 40px;
+}
+
+sup {
+	font: 24;
+	top: -18px;
+}
